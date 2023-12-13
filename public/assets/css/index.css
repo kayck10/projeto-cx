@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #0065b7, #229fb1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+@font-face {
+  font-family: 'futura-lt-bold';
+  src: url('../fonts/FuturaLT-Bold.ttf') format('ttf'),
+    url('../fonts/FuturaLT-Bold.ttf') format('ttf');
+}
+
+.nav-custom {
+  background-image: linear-gradient(to bottom, #0065b7, #229fb1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 40px;
+}
+
+.line {
+  opacity: 100;
+  border: none;
+  border-top: 3px solid #1c98dd;
+}
+
+.title {
+  color: white;
+  font-family: 'futura-lt-bold', sans-serif;
+  font-weight: 700 !important;
+}
+
+.subtitle {
+  color: white;
+}
+
+.card {
+  width: 100% !important;
+  border-radius: 0px !important;
+  border-style: none !important;
+}
+
+.card-auth {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.align-left {
+  display: flex;
+  align-items: center;
+}
+
+.align-center {
+  display: inline-flex;
+}
+
+.tarja {
+  width: 6em;
+  height: 25px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fbfbfb77;
+  display: inline-flex;
+}
+
+.text-container {
+  margin-left: 10px;
+  /* Espaçamento entre a imagem e o texto */
+}
+
+.card-title {
+  font-family: 'futura-lt-bold', sans-serif;
+  font-weight: 900 !important;
+  color: #0066b3 !important;
+}
+
+.card-text-option {
+  font-family: 'futura-lt-bold', sans-serif;
+  font-weight: 900 !important;
+  color: #ff6d00;
+
+}
+
+.card-text {
+  font-family: 'futura-lt-bold', sans-serif;
+  font-weight: 400 !important;
+  color: #4c556c;
+  text-decoration: none;
+}
+
+.card-btn {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'futura-lt-bold', sans-serif;
+  font-weight: 800 !important;
+  background: #ff6d00;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.icon-contract {
+  font-size: 30px;
+}
+
+/* Estilos personalizados para o rodapé */
+footer {
+  background-color: #eff4f5;
+  padding: 30px 0;
+  color: #333;
+}
+
+.footer-link {
+  color: #555;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
+/* para telas com largura menor que 768px (dispositivos móveis) */
+@media (max-width: 767px) {
+  .logo-top-nav {
+    width: 100px !important;
+
+  }
+}
+
+/* Estilos CSS personalizados notificação*/
+.custom-popup {
+  background-color: #ffffffe8 !important;
+  /* Cor de fundo */
+  height: 120px;
+  display: flex !important;
+  line-height: 1;
+  margin: 0 !important;
+  overflow-y: hidden !important;
+  box-shadow: none !important;
+
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
